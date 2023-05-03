@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+g++ \
+  main.cpp \
+  -I /opt/local/include \
+  -L /opt/local/lib \
+  -l absl_str_format_internal \
+  -L lib \
+  -l pizza \
+  -std=c++20 \
+  -o main_from_lib

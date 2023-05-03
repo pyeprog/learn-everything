@@ -1,0 +1,2 @@
+this is an output file:
+this is the end of the file

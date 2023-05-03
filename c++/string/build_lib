@@ -1,0 +1,10 @@
+g++ -c -std=c++20 \
+  format_string.cpp \
+  palindrome_check.cpp \
+  email_check.cpp \
+  email.cpp \
+  password.cpp \
+  str_util.cpp \
+  simple_encrypt.cpp
+
+ar rcs lib/libpizza.a *.o
